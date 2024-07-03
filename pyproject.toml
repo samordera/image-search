@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "memefinder"
+version = "0.1.0"
+description = ""
+authors = ["samordera"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.3.1"
+Kivy = "^2.3.0"
+opencv-python = "^4.10.0.84"
+numpy = "^2.0.0"
+pytesseract = "^0.3.10"
+
+[tool.poetry.group.dev.dependencies]
+buildozer = "^1.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
